@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - Interface for GPS
 Summary(pl.UTF-8):	%{_pearname} - interfejs do GPS
 Name:		php-pear-%{_pearname}
-Version:	0.1.0
+Version:	0.1.1
 Release:	1
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	7c170bbc1269735e80e40e01b5fed454
+# Source0-md5:	8f4f99c4defb7b3c0d5f5158b57879f2
 URL:		http://pear.php.net/package/Net_UserAgent_Mobile_GPS/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
