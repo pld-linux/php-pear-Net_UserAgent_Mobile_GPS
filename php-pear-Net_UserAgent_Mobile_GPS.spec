@@ -1,13 +1,11 @@
 %include	/usr/lib/rpm/macros.php
-%define		_class		Net
-%define		_subclass	UserAgent_Mobile_GPS
 %define		_status		alpha
 %define		_pearname	Net_UserAgent_Mobile_GPS
 Summary:	%{_pearname} - Interface for GPS
 Summary(pl.UTF-8):	%{_pearname} - interfejs do GPS
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
-Release:	2
+Release:	3
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -16,7 +14,7 @@ URL:		http://pear.php.net/package/Net_UserAgent_Mobile_GPS/
 BuildRequires:	php-pear-PEAR >= 1:1.4.0-0.b1
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
-Requires:	php-pear
+Requires:	php-pear >= 4:1.3-4
 Requires:	php-pear-Net_UserAgent_Mobile >= 0.1
 Requires:	php-pear-PEAR-core >= 1:1.3.5
 BuildArch:	noarch
