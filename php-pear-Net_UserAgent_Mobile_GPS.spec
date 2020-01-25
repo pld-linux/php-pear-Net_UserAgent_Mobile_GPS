@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		alpha
 %define		_pearname	Net_UserAgent_Mobile_GPS
 Summary:	%{_pearname} - Interface for GPS
